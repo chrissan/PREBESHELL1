@@ -39,7 +39,7 @@ if [ $(sudo grep $usu /etc/shadow) ]; then
 
 					case $cmd in
 						arbol )
-							#QUIQUE
+							$PWD/script/tree.sh
 							;;
 
 						ayuda )
